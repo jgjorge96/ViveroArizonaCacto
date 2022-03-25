@@ -1,0 +1,58 @@
+html {
+    font-size: 62.5%;
+
+    /* por defecto se use 10px, usamos 1 rem = 10 px, medida relativa a la conf. del tamaño raiz*/
+    @media (min-width: 1400px) {
+        font-size: 80%;
+
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-size: 1.4rem;
+
+}
+
+body {
+    background-color: #F5F3E6;
+}
+
+.botonWhatsApp {
+    img {
+        width: 70px;
+        position: fixed;
+        bottom: 20px;
+        right: 90px;
+        filter: drop-shadow(2px 2px 3px rgb(116, 115, 115));
+        transition: width 2s, height 2s, transform 2s;
+        z-index: 10000;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+
+        @media (max-width: 1024px) {
+            width: 40px;
+            position: fixed;
+            filter: drop-shadow(3px 3px 3px rgb(116, 115, 115));
+            right: 10px;
+            bottom: 60px;
+        }
+    }
+}
+
+#cards {
+    padding: 8rem;
+
+    @media (max-width: 1200px) {
+        padding: 0;
+    }
+}
+
+.disclaimer {           /*si lo sube a webhost*/
+    display: none;
+}

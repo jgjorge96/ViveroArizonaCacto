@@ -1,0 +1,220 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+h1 {
+  color: #E12FA7;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 4rem;
+  position: relative;
+  padding: 0.7rem;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+h2 {
+  color: #000000;
+  font-size: 2.5rem;
+  position: relative;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+@media (max-width: 1036px) {
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  h2 {
+    font-size: 1.1rem;
+  }
+}
+
+h3 {
+  color: #000000;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+@media (max-width: 1024px) {
+  h3 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 600px) {
+  h3 {
+    font-size: 1.4rem;
+  }
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-family: Roboto;
+  color: #159193;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+html {
+  font-size: 62.5%;
+  /* por defecto se use 10px, usamos 1 rem = 10 px, medida relativa a la conf. del tamaño raiz*/
+}
+
+@media (min-width: 1400px) {
+  html {
+    font-size: 80%;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Roboto;
+  font-size: 1.4rem;
+}
+
+body {
+  background-color: #F5F3E6;
+}
+
+.botonWhatsApp img {
+  width: 70px;
+  position: fixed;
+  bottom: 20px;
+  right: 90px;
+  -webkit-filter: drop-shadow(2px 2px 3px #747373);
+          filter: drop-shadow(2px 2px 3px #747373);
+  -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+  transition: width 2s, height 2s, -webkit-transform 2s;
+  transition: width 2s, height 2s, transform 2s;
+  transition: width 2s, height 2s, transform 2s, -webkit-transform 2s;
+  z-index: 10000;
+}
+
+.botonWhatsApp img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+@media (max-width: 1024px) {
+  .botonWhatsApp img {
+    width: 40px;
+    position: fixed;
+    -webkit-filter: drop-shadow(3px 3px 3px #747373);
+            filter: drop-shadow(3px 3px 3px #747373);
+    right: 10px;
+    bottom: 60px;
+  }
+}
+
+#cards {
+  padding: 8rem;
+}
+
+@media (max-width: 1200px) {
+  #cards {
+    padding: 0;
+  }
+}
+
+.disclaimer {
+  /*si lo sube a webhost*/
+  display: none;
+}
+
+.pantallaCompleta {
+  max-width: 100vw !important;
+}
+
+.pantallaCompleta .carousel {
+  margin: 0 auto 2rem auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.pantallaCompleta .carousel .carousel-indicators .active {
+  background-color: #E12FA7;
+}
+
+.pantallaCompleta .carousel .carousel-indicators button {
+  width: 4rem;
+  height: 1rem;
+  border-radius: 2rem;
+  border: 0.2rem solid black;
+}
+
+@media (max-width: 1024px) {
+  .pantallaCompleta .carousel .carousel-indicators button {
+    width: 3.5rem;
+    height: 0.7rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .pantallaCompleta .carousel .carousel-indicators button {
+    width: 1rem;
+    height: 0.3rem;
+  }
+}
+
+.pantallaCompleta .carousel .carousel-control-prev-icon,
+.pantallaCompleta .carousel .carousel-control-next-icon {
+  background-color: black;
+  border-radius: 0.3rem;
+  padding: 2rem;
+}
+
+@media (max-width: 700px) {
+  .pantallaCompleta .carousel .carousel-control-prev-icon,
+  .pantallaCompleta .carousel .carousel-control-next-icon {
+    padding: 0rem;
+  }
+}
+
+.card {
+  background-color: rgba(225, 47, 167, 0.15);
+  border: 0;
+}
+
+.card.rounded-3 {
+  border-radius: 1.2rem !important;
+}
+
+.card-img-top.rounded-3 {
+  border-radius: 1.2rem !important;
+}
+
+.navbar {
+  background-color: #FDDE2B;
+}
+
+.btn-primary {
+
+  background-color: #159193 !important;
+  border-color: inherit;
+  font-weight: bold;
+  border-radius: 0.6rem;
+}
+
+.btn-primary.p-3{
+  padding: 1.6rem !important;
+}
+/*# sourceMappingURL=style.css.map */
