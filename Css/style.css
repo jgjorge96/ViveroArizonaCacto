@@ -207,14 +207,13 @@ body {
 }
 
 .btn-primary {
-
   background-color: #159193 !important;
   border-color: inherit;
   font-weight: bold;
   border-radius: 0.6rem;
 }
 
-.btn-primary.p-3{
+.btn-primary.p-3 {
   padding: 1.6rem !important;
 }
 /*# sourceMappingURL=style.css.map */
