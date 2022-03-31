@@ -7,7 +7,7 @@
 
 .card {
 
-    background-color: rgba(225, 47, 167, 0.15);
+    background-color: rgba(225, 47, 167, 1);
     border:0;
     &.rounded-3 {
 
@@ -19,7 +19,7 @@
 
     &.rounded-3 {
 
-        border-radius: 1.2rem !important;
+        border-radius: 1.2rem 1.2rem 0 0 !important;
     }
 }
 
@@ -34,8 +34,35 @@
     border-color: inherit;
     font-weight: bold;
     border-radius: 0.6rem;
-    
+
     &.p-3 {
         padding: 1.6rem !important;
     }
+}
+
+.border-warning {
+
+    border-color:#FDDE2B !important;
+    padding: 1.6rem;
+}
+
+.marginButton {
+
+    margin: 3.3rem;
+}
+
+.container2 {
+
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.cardAmarilla{
+
+    border-radius: 6.1rem !important;
+}
+
+.cardSola {
+
+    justify-content: center;
 }

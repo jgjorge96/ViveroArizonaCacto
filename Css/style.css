@@ -66,7 +66,7 @@ h4 {
 
 h5 {
   font-family: Roboto;
-  color: #159193;
+  color: #ffffff;
   font-size: 1.4rem;
   font-weight: bold;
 }
@@ -140,6 +140,10 @@ body {
   display: none;
 }
 
+.card-body {
+  padding: 1rem 1rem 0rem;
+}
+
 .pantallaCompleta {
   max-width: 100vw !important;
 }
@@ -190,7 +194,7 @@ body {
 }
 
 .card {
-  background-color: rgba(225, 47, 167, 0.15);
+  background-color: #e12fa7;
   border: 0;
 }
 
@@ -199,7 +203,7 @@ body {
 }
 
 .card-img-top.rounded-3 {
-  border-radius: 1.2rem !important;
+  border-radius: 1.2rem 1.2rem 0 0 !important;
 }
 
 .navbar {
@@ -215,5 +219,29 @@ body {
 
 .btn-primary.p-3 {
   padding: 1.6rem !important;
+}
+
+.border-warning {
+  border-color: #FDDE2B !important;
+  padding: 1.6rem;
+}
+
+.marginButton {
+  margin: 3.3rem;
+}
+
+.container2 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.cardAmarilla {
+  border-radius: 6.1rem !important;
+}
+
+.cardSola {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=style.css.map */
