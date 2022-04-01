@@ -202,6 +202,10 @@ body {
   border-radius: 1.2rem !important;
 }
 
+.card.consejos {
+  background-color: white;
+}
+
 .card-img-top.rounded-3 {
   border-radius: 1.2rem 1.2rem 0 0 !important;
 }
@@ -226,6 +230,10 @@ body {
   padding: 1.6rem;
 }
 
+.border-warning .textoConsejo {
+  font-size: 1.2rem;
+}
+
 .marginButton {
   margin: 3.3rem;
 }
@@ -237,11 +245,17 @@ body {
 
 .cardAmarilla {
   border-radius: 6.1rem !important;
+  margin-bottom: 4rem;
 }
 
 .cardSola {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.piedepagina {
+  background-color: #FDDE2B;
+  padding: 2rem;
 }
 /*# sourceMappingURL=style.css.map */

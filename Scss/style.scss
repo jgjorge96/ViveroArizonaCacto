@@ -13,6 +13,10 @@
 
         border-radius: 1.2rem !important;
     }
+    &.consejos {
+
+        background-color: white;
+    }
 }
 
 .card-img-top {
@@ -44,6 +48,10 @@
 
     border-color:#FDDE2B !important;
     padding: 1.6rem;
+    .textoConsejo {
+
+        font-size: 1.2rem;
+    }
 }
 
 .marginButton {
@@ -60,9 +68,16 @@
 .cardAmarilla{
 
     border-radius: 6.1rem !important;
+    margin-bottom: 4rem;
 }
 
 .cardSola {
 
     justify-content: center;
+}
+
+.piedepagina {
+
+    background-color: #FDDE2B;
+    padding: 2rem;
 }
