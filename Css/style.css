@@ -23,11 +23,13 @@ h1 {
 }
 
 h2 {
-  color: #000000;
+  color: #159193;
   font-size: 2.5rem;
   position: relative;
-  text-align: center;
-  margin-bottom: 5rem;
+  text-align: left;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  margin-top: 1.5rem;
 }
 
 @media (max-width: 1036px) {
@@ -38,7 +40,7 @@ h2 {
 
 @media (max-width: 600px) {
   h2 {
-    font-size: 1.1rem;
+    font-size: 1.6rem;
   }
 }
 
@@ -69,6 +71,15 @@ h5 {
   color: #ffffff;
   font-size: 1.4rem;
   font-weight: bold;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: normal;
+}
+
+.rowN {
+  --bs-gutter-x: 0rem;
 }
 
 html {
@@ -301,5 +312,27 @@ body {
 .nav-link {
   font-weight: 1000;
   color: #000000;
+}
+
+.sobreNos {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  width: 50%;
+}
+
+.fondo {
+  background-color: #F5F3E6;
+}
+
+.proverbio {
+  padding: 1rem 5rem 1rem 5rem;
+  text-align: center;
+  background-color: #FDDE2B;
+  color: #E12FA7;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 2.55rem;
+  margin-top: 3rem;
 }
 /*# sourceMappingURL=style.css.map */
