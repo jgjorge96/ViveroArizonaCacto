@@ -17,6 +17,10 @@
 
         background-color: white;
     }
+    &.porqueEleg {
+
+        background-color: white;
+    }
 }
 
 .card-img-top {
@@ -74,10 +78,50 @@
 .cardSola {
 
     justify-content: center;
+    background-color: #F5F3E6;
+    margin: 0 auto;
+    div {
+
+        background-color: #F5F3E6;
+    }
+    h5 {
+        font-weight: normal;
+        color:#000000;
+        font-size: 1.2rem;
+    }
 }
 
 .piedepagina {
 
     background-color: #FDDE2B;
     padding: 2rem;
+}
+
+.porqueEleg {
+
+    width: 6rem;
+    height: 6rem;
+    align-self: center;
+    background-color: #F5F3E6;
+}
+
+.cardDos {
+
+    background-color: #F5F3E6;
+    h5 {
+        font-weight: normal;
+        color:#000000;
+        font-size: 1.2rem;
+    }
+}
+
+.active {
+
+    text-transform: uppercase;
+}
+
+.nav-link {
+
+    font-weight:1000;
+    color:#000000;
 }
