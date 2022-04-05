@@ -32,6 +32,12 @@ h2 {
     @media (max-width: 600px) {
         font-size: 1.6rem;
     }
+
+    &.finalNos{
+        color:#ffffff;
+        background-color: #159193;
+        text-align: center;
+    }
 }
 
 h3 {

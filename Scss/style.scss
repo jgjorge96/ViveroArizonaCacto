@@ -60,7 +60,7 @@
 
 .marginButton {
 
-    margin: 3.3rem;
+    margin: 2rem;
 }
 
 .container2 {
@@ -147,4 +147,76 @@
     font-size: 1.4rem;
     line-height:2.55rem;
     margin-top: 3rem;
+    margin-bottom: 3rem !important;
+}
+
+.bajoProverbio{
+
+    font-size: 1.2rem;
+    font-weight: normal;
+    line-height: 2rem;
+    padding: 0 1rem 0;
+    span {
+
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #159193;
+    }
+}
+
+.cuatroImg{
+
+    margin:1.6rem 1rem 0 1rem;
+    position: relative;
+}
+
+.bajocuatroImg{
+
+    margin: 2rem 2rem 0rem 2rem;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.uno, .dos{
+
+    margin-bottom: 1.5rem;
+}
+
+.dos, .cuatro{
+
+    margin-left: inherit;
+}
+
+.circulo{
+
+    position: absolute;
+    width: 15rem;
+    top: 50%;
+    margin-top: -10rem;
+    right: 50%;
+    margin-right: -7rem;
+}
+
+.uno, .dos, .tres, .cuatro {
+
+    z-index: 1;
+}
+
+.circulo{
+
+    z-index: 2;
+}
+
+.centrado{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rowN{
+
+    margin-bottom: 3rem;
 }

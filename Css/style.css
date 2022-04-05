@@ -44,6 +44,12 @@ h2 {
   }
 }
 
+h2.finalNos {
+  color: #ffffff;
+  background-color: #159193;
+  text-align: center;
+}
+
 h3 {
   color: #000000;
   font-size: 1.8rem;
@@ -250,7 +256,7 @@ body {
 }
 
 .marginButton {
-  margin: 3.3rem;
+  margin: 2rem;
 }
 
 .container2 {
@@ -334,5 +340,73 @@ body {
   font-size: 1.4rem;
   line-height: 2.55rem;
   margin-top: 3rem;
+  margin-bottom: 3rem !important;
+}
+
+.bajoProverbio {
+  font-size: 1.2rem;
+  font-weight: normal;
+  line-height: 2rem;
+  padding: 0 1rem 0;
+}
+
+.bajoProverbio span {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #159193;
+}
+
+.cuatroImg {
+  margin: 1.6rem 1rem 0 1rem;
+  position: relative;
+}
+
+.bajocuatroImg {
+  margin: 2rem 2rem 0rem 2rem;
+  text-align: center;
+  line-height: 2rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.uno, .dos {
+  margin-bottom: 1.5rem;
+}
+
+.dos, .cuatro {
+  margin-left: inherit;
+}
+
+.circulo {
+  position: absolute;
+  width: 15rem;
+  top: 50%;
+  margin-top: -10rem;
+  right: 50%;
+  margin-right: -7rem;
+}
+
+.uno, .dos, .tres, .cuatro {
+  z-index: 1;
+}
+
+.circulo {
+  z-index: 2;
+}
+
+.centrado {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.rowN {
+  margin-bottom: 3rem;
 }
 /*# sourceMappingURL=style.css.map */
