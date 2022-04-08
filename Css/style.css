@@ -410,3 +410,18 @@ body {
   margin-bottom: 3rem;
 }
 /*# sourceMappingURL=style.css.map */
+
+.resaltado {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #159193;
+}
+.imgBorder {
+  border-radius: 1.2rem;
+}
+.textWrap {
+  text-align: justify;
+}
+.iconLi {
+  list-style-image: url(/viveroArizonaCacto/Css/wateringCan.svg);
+}
