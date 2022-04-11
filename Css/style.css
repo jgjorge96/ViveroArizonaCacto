@@ -537,3 +537,21 @@ body {
   line-height: 1.6rem;
   color: #ffffff;
 }
+.btnBuy {
+  position: absolute;
+  left: 11rem;
+  top: 18.54rem;
+  text-align: center;
+  border: none;
+  background-color: #159193;
+  border-radius: 6px;
+  width: 17rem;
+  height: 5.5rem;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  color: #ffffff;
+}
