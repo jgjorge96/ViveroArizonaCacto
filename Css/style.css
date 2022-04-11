@@ -425,3 +425,42 @@ body {
 .iconLi {
   list-style-image: url(/viveroArizonaCacto/Css/wateringCan.svg);
 }
+.direcc {
+  font-size: 0.8rem;
+  margin-right: 18.5rem;
+  text-align: center;
+}
+.direCard {
+  position: absolute;
+  width: 16.9rem;
+  height: 10.8rem;
+  left: 20.5rem;
+  top: 18.4rem;
+
+  background: #E12FA7;
+  border-radius: 1rem;
+}
+.adressCacto {
+  width: 14rem;
+  height: 7.2rem;
+  top: 20rem;
+  left: 21rem;
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  text-align: center;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+.lema {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+.visitUs {
+  margin-top: 2.1rem;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
