@@ -92,23 +92,27 @@
 }
 
 .piedepagina {
-
+    height: 35rem;
     background-color: #FDDE2B;
-    padding: 2rem;
+    padding: 0 2rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
+  .piedepagina__flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 48rem;
+  }
   .newsletterData {
-    left: 60.5rem;
-    width: 17rem;
+    width: 48rem;
     height: 15.9rem;
     text-align: center;
     margin-top: 2.4rem;
   }
 
 .porqueEleg {
-
     width: 6rem;
     height: 6rem;
     align-self: center;
@@ -247,32 +251,35 @@
     list-style-image: url(/viveroArizonaCacto/Css/wateringCan.svg);
   }
   .direcc {
-    width: 16.8rem;
-    font-size: 0.8rem;
+    width: 56.3rem;
+    font-size: 1.5rem;
     text-align: center;
+    margin-top: 1rem;
+  }
+
+  .contactMap {
+    height: 75.7rem;
   }
   .direCard {
     position: absolute;
-    width: 16.9rem;
-    height: 10.8rem;
-    left: 20.5rem;
-    top: 18.4rem;
+    width: 48.5rem;
+    height: 29rem;
+    left: 67rem;
+    top: 53.6rem;
   
     background: #E12FA7;
     border-radius: 1rem;
   }
   .adressCacto {
-    width: 14rem;
-    height: 7.2rem;
-    top: 20rem;
-    left: 21rem;
-    margin-top: 1.5rem;
-    margin-left: 1.5rem;
-    font-size: 1.4rem;
-    line-height: 1.6rem;
+    width: 50rem;
+    height: 14.7rem;
+    font-size: 4.8rem;
+    line-height: 7rem;
     text-align: center;
-    font-weight: 500;
+    font-weight: 800;
     color: #FFFFFF;
+
+    margin-top: 1rem;
   }
   .lema {
     text-align: center;
@@ -312,7 +319,9 @@
     margin-right: 2rem;
     margin-bottom: 7.6rem;
   }
+  
   .formFooter {
+    height: 4rem;
     background: #FDDE2B;
     border: 1px solid #000000;
     box-sizing: border-box;
@@ -338,8 +347,8 @@
     border: none;
     background-color: #159193;
     border-radius: 6px;
-    width: 17rem;
-    height: 3.1rem;
+    width: 35rem;
+    height: 5rem;
   
     font-family: 'Roboto';
     font-style: normal;
@@ -361,8 +370,58 @@
   
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 500;
-    font-size: 1.4rem;
-    line-height: 1.6rem;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 2.9rem;
     color: #ffffff;
+  }
+
+  @media (max-width: 391px) {
+    .piedepagina {
+      height: 23.2rem;
+      .piedepagina__flex {
+        width: 16rem;
+        height: 9rem;
+      }
+      .newsletterData {
+        width: 17rem;
+      }
+    }
+    .formFooter {
+      height: auto;
+    }
+    .direcc {
+      width: 16.8rem;
+      font-size: 0.8rem;
+    }
+    .subButton {
+      width: 17rem;
+      height: 3.1rem;
+
+      font-weight: 500;
+      font-size: 1.4rem;
+      line-height: 1.6rem;
+    }
+    .contactMap {
+      width: 39rem;
+      height: 20.5rem;
+    }
+    .direCard {
+      position: absolute;
+      width: 16.9rem;
+      height: 10.8rem;
+      left: 20.5rem;
+      top: 18.4rem;
+    }
+    .adressCacto {
+      width: 14rem;
+      height: 7.2rem;
+      margin-top: 1.5rem;
+      margin-left: 1.5rem;
+      font-size: 1.4rem;
+      line-height: 1.6rem;
+      font-weight: 500;
+
+      margin-left: 1.5rem;
+    }
   }
