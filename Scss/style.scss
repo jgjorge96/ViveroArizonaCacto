@@ -111,9 +111,9 @@
 }
 
 .piedepagina {
-
+    height: 35rem;
     background-color: #FDDE2B;
-    padding: 2rem;
+    padding: 0 2rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -123,16 +123,20 @@
       }
     }
   }
+  .piedepagina__flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 48rem;
+  }
   .newsletterData {
-    left: 60.5rem;
-    width: 17rem;
+    width: 48rem;
     height: 15.9rem;
     text-align: center;
     margin-top: 2.4rem;
   }
 
 .porqueEleg {
-
     width: 6rem;
     height: 6rem;
     align-self: center;
@@ -169,7 +173,6 @@
 }
 
 .fondo{ 
-
     background-color:#F5F3E6;
 }
 
@@ -308,42 +311,65 @@
     width: 100%;
     font-size: 0.8rem;
     text-align: center;
+    margin-top: 1rem;
+  }
+
+  .contactMap {
+    height: 75.7rem;
   }
   .direCard {
     position: absolute;
-    width: 16.9rem;
-    height: 10.8rem;
-    left: 20.5rem;
-    top: 18.4rem;
+    width: 48.5rem;
+    height: 29rem;
+    left: 67rem;
+    top: 53.6rem;
   
     background: #E12FA7;
     border-radius: 1rem;
   }
   .adressCacto {
-    width: 14rem;
-    height: 7.2rem;
-    top: 20rem;
-    left: 21rem;
-    margin-top: 1.5rem;
-    margin-left: 1.5rem;
-    font-size: 1.4rem;
-    line-height: 1.6rem;
+    width: 50rem;
+    height: 14.7rem;
+    font-size: 4.8rem;
+    line-height: 7rem;
     text-align: center;
-    font-weight: 500;
+    font-weight: 800;
     color: #FFFFFF;
+
+    margin-top: 1rem;
+  }
+  .logoCacto {
+    margin-left: 25rem;
   }
   .lema {
     text-align: center;
     font-weight: 500;
-    font-size: 1.4rem;
+    font-size: 4rem;
   }
   .visitUs {
-    margin-top: 2.1rem;
+    margin-top: 14rem;
     text-align: center;
     font-weight: 400;
-    font-size: 1.4rem;
+    font-size: 4rem;
   }
-  
+  .webCacto {
+    margin-top: 14rem;
+    text-align: center;
+    font-size: 4rem;
+    color: #159193; 
+    font-weight: 600;
+    margin-bottom: 8rem;
+  }
+
+  .rsIcon {
+    width: 21rem;
+    height: 21rem;
+  }
+  .formContact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .inputEdit {
     background: #FDDE2B;
     border-radius: 0.5rem;
@@ -355,22 +381,27 @@
     line-height: 1.4rem;
   }
   #Nombre {
-    height: 4.8rem;
+    margin-top: 12rem;
+    height: 8.5rem;
+    width: 71.6rem;
   }
   #Correo {
-    height: 4.8rem;
+    height: 8.5rem;
+    width: 71.6rem;
   }
   #Mensaje {
     margin-top: 1.1rem;
-    height: 18.4rem;
+    height: 32.6rem;
+    width: 71.6rem;
   }
   .marginButtonSubmit {
     margin-top: 2rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    margin-bottom: 7.6rem;
+    margin-bottom: 10rem;
+    width: 35rem;
   }
+  
   .formFooter {
+    height: 4rem;
     background: #FDDE2B;
     border: 1px solid #000000;
     box-sizing: border-box;
@@ -396,8 +427,8 @@
     border: none;
     background-color: #159193;
     border-radius: 6px;
-    width: 17rem;
-    height: 3.1rem;
+    width: 35rem;
+    height: 5rem;
   
     font-family: 'Roboto';
     font-style: normal;
@@ -420,8 +451,174 @@
   
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 500;
-    font-size: 1.4rem;
-    line-height: 1.6rem;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 2.9rem;
     color: #ffffff;
+  }
+
+  @media (max-width: 753px) {
+    .piedepagina {
+      height: 30rem;
+      width: 70rem;
+      padding: 0.5rem;
+      .piedepagina__flex {
+        width: 25rem;
+        height: 16rem;
+      }
+      .newsletterData {
+        width: 25rem;
+        h3 {
+          font-weight: 700;
+          font-size: 2rem;
+        }
+      }
+    }
+    .formFooter {
+      height: 4.6rem;
+    }
+    .direcc {
+      width: 25rem;
+      font-size: 1.1rem;
+    }
+    .subButton {
+      width: 25rem;
+      height: 5rem;
+
+      font-weight: 600;
+      font-size: 1.8rem;
+      line-height: 2.1rem;
+    }
+    .contactMap {
+      width: 75.2rem;
+      height: 39.5rem;
+    }
+    .direCard {
+      position: absolute;
+      width: 32.7rem;
+      height: 19rem;
+      left: 38rem;
+      top: 29rem;
+    }
+    .adressCacto {
+      width: 30rem;
+      height: 7.7rem;
+      margin-top: 4rem;
+      font-size: 2rem;
+      line-height: 2.3rem;
+      font-weight: 700;
+
+      margin-left: 1.5rem;
+    }
+    .logoCacto {
+      margin-left: 13rem;
+      margin-top: 10rem;
+    }
+    .lema {
+      font-size: 2rem;
+      margin-bottom: 3rem;
+    }
+    .visitUs {
+      margin-top: 14.5rem;
+      font-size: 2rem;
+    }
+
+    // #Nombre {
+    //   height: 4.8rem;
+    //   width: 39rem;
+    // }
+    // #Correo {
+    //   height: 4.8rem;
+    //   width: 39rem;
+    // }
+    // #Mensaje {
+    //   margin-top: 1.1rem;
+    //   height: 18.4rem;
+    //   width: 39rem;
+    // }
+    // .marginButtonSubmit {
+    //   margin-top: 2rem;
+    //   margin-bottom: 7.6rem;
+    //   width: 17rem;
+    // }
+  }
+
+  @media (max-width: 391px) {
+    .piedepagina {
+      height: 23.2rem;
+      width: 39rem;
+      .piedepagina__flex {
+        width: 16rem;
+        height: 9rem;
+      }
+      .newsletterData {
+        width: 17rem;
+      }
+    }
+    .formFooter {
+      height: auto;
+    }
+    .direcc {
+      width: 16.8rem;
+      font-size: 0.8rem;
+    }
+    .subButton {
+      width: 17rem;
+      height: 3.1rem;
+
+      font-weight: 500;
+      font-size: 1.4rem;
+      line-height: 1.6rem;
+    }
+    .contactMap {
+      width: 39rem;
+      height: 20.5rem;
+    }
+    .direCard {
+      position: absolute;
+      width: 16.9rem;
+      height: 10.8rem;
+      left: 20.5rem;
+      top: 18.4rem;
+    }
+    .adressCacto {
+      width: 14rem;
+      height: 7.2rem;
+      margin-top: 1.5rem;
+      margin-left: 1.5rem;
+      font-size: 1.4rem;
+      line-height: 1.6rem;
+      font-weight: 500;
+
+      margin-left: 1.5rem;
+    }
+    .logoCacto {
+      margin-left: 9.7rem;
+    }
+    .lema {
+      font-size: 1.4rem;
+    }
+    .visitUs {
+      margin-top: 2.1rem;
+      font-size: 1.4rem;
+    }
+
+    #Nombre {
+      height: 4.8rem;
+      width: 39rem;
+    }
+    #Correo {
+      height: 4.8rem;
+      width: 39rem;
+    }
+    #Mensaje {
+      margin-top: 1.1rem;
+      height: 18.4rem;
+      width: 39rem;
+    }
+    .marginButtonSubmit {
+      margin-top: 2rem;
+      margin-bottom: 7.6rem;
+      width: 17rem;
+    }
   }

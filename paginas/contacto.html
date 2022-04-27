@@ -68,8 +68,8 @@
     </section>
 
     <!--Seccion mapa con adress-->
-    <section>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3275.249752074992!2d-58.64773518473905!3d-34.824812576736996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcdb587ebde6d1%3A0xd1f06731422013bc!2sSantiago%20Bynnon%207539%2C%20B1763JRG%20Virrey%20del%20Pino%2C%20Provincia%20de%20Buenos%20Aires%2C%20Argentina!5e0!3m2!1ses-419!2sit!4v1649445695440!5m2!1ses-419!2sit" width="390" height="205" style="border:0;" allowfullscreen="false" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <section class="contactMap">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3275.249752074992!2d-58.64773518473905!3d-34.824812576736996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcdb587ebde6d1%3A0xd1f06731422013bc!2sSantiago%20Bynnon%207539%2C%20B1763JRG%20Virrey%20del%20Pino%2C%20Provincia%20de%20Buenos%20Aires%2C%20Argentina!5e0!3m2!1ses-419!2sit!4v1649445695440!5m2!1ses-419!2sit" width="100%" height="100%" style="border:0;" allowfullscreen="false" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <div class="direCard">
            <p class="adressCacto">SANTIAGO BINNON <br> 7539, VIRREY DEL <br> PINO. KM 37. <br> BUENOS AIRES</p> 
         </div>
@@ -82,7 +82,7 @@
                 <div class="col-sm-6 sobreNos">
                     <div class="card">
                       <div class="card-body fondo">
-                          <img src="../multimedia/LOGOredondo.png" class="d-block w-100" style="margin-left: 9.7rem;"
+                          <img src="../multimedia/LOGOcactoRedondo.png" class="d-block w-100 logoCacto" 
                           alt="logo arizona cacto">
                       </div>
                     </div>
@@ -116,12 +116,12 @@
 
     <!--seccion iconos redes sociales-->
     <section>
+        <p class="visitUs">Visitanos en nuestras redes sociales</p>
         <div class="row rowN">
-            <p class="visitUs">Visitanos en nuestras redes sociales</p>
             <div class="col-sm-6 sobreNos">
                 <div class="card">
-                    <div class="card-body fondo">
-                        <img src="../multimedia/contacto/facebookIcon.svg" class="d-block w-100"
+                    <div class="card-body fondo ">
+                        <img src="../multimedia/contacto/facebookIcon.svg" class="d-block w-100 rsIcon"
                         alt="icono facebook">
                     </div>
                 </div>
@@ -129,22 +129,21 @@
             <div class="col-sm-6 sobreNos">
                 <div class="card">
                     <div class="card-body fondo">
-                        <img src="../multimedia/contacto/instagramIcon.svg" class="d-block w-100"
+                        <img src="../multimedia/contacto/instagramIcon.svg" class="d-block w-100 rsIcon"
                         alt="iicono instagram">
                     </div>
                 </div>
             </div>
-            <p class="visitUs" style="color: #159193; font-weight: 600;">arizonacacto.ok</p>
+            <p class="webCacto">arizonacacto.ok</p>
         </div>
     </section>
     <!--Seccion form-->
     <section>
         <div id="sobreNos" class="container">
-            <section id="conoceMas">
-                <h1>ENVIANOS UN MENSAJE</h1>
-            </section>
 
-            <form action="">
+            <h1>ENVIANOS UN MENSAJE</h1>
+
+            <form action="" class="formContact">
                 <div class="mb-3">
                     <input type="text" class="form-control inputEdit" id="Nombre" placeholder="Tu nombre y apellido">
                 </div>
@@ -154,7 +153,7 @@
                 <div class="mb-3">
                     <textarea class="form-control  inputEdit" id="Mensaje" placeholder="Tu mensaje"></textarea>
                 </div>
-                <div class="d-grid gap-2 col-4 mx-auto pt-3 marginButtonSubmit" style="width: 17rem;">
+                <div class="d-grid gap-2 col-4 mx-auto pt-3 marginButtonSubmit">
                     <button type="submit" class="btn btn-primary btn-lg p-3">ENVIAR</button>
                 </div>
             </form>
@@ -164,19 +163,19 @@
     <!--Inicio Footer-->
     <footer class="piedepagina container">
         <div class="piedepagina__flex">
-            <img src="../multimedia/LOGO arizona cacto 1.png" class="d-block" alt="logo arizona cacto" style="margin-left: 3.5rem;">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3275.249752074992!2d-58.64773518473905!3d-34.824812576736996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcdb587ebde6d1%3A0xd1f06731422013bc!2sSantiago%20Bynnon%207539%2C%20B1763JRG%20Virrey%20del%20Pino%2C%20Provincia%20de%20Buenos%20Aires%2C%20Argentina!5e0!3m2!1ses-419!2sit!4v1649445695440!5m2!1ses-419!2sit" width="169" height="80" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <img src="../multimedia/LOGO arizona cacto 1.png" class="d-block" alt="logo arizona cacto">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3275.249752074992!2d-58.64773518473905!3d-34.824812576736996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcdb587ebde6d1%3A0xd1f06731422013bc!2sSantiago%20Bynnon%207539%2C%20B1763JRG%20Virrey%20del%20Pino%2C%20Provincia%20de%20Buenos%20Aires%2C%20Argentina!5e0!3m2!1ses-419!2sit!4v1649445695440!5m2!1ses-419!2sit" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             <p class="direcc">Santiago Bynnon 7539, Virrey del Pino. Km 37. Buenos Aires.</p>
         </div>
         <div class="newsletterData">
             <h3>Nuestro Newsletter</h3>
             <p class="boletin">Sumate a nuestro boletín de noticias</p>
-            <form action="">
+            <form action="" class="formF">
                 <div class="mb-3">
-                    <input type="text" class="form-control formFooter" id="Name" placeholder="Tu nombre y apellido" style="height: 2.4rem;">
+                    <input type="text" class="form-control formFooter" id="Name" placeholder="Tu nombre y apellido">
                 </div>
                 <div class="mb-3">
-                    <input type="email" class="form-control formFooter" id="Email" placeholder="Tu correo electronico" style="height: 2.4rem;">
+                    <input type="email" class="form-control formFooter" id="Email" placeholder="Tu correo electronico">
                 </div>
                 <div class="d-grid gap-2 mx-auto pt-3">
                     <button type="submit" class="btn subButton " > Me quiero sumar</button>
