@@ -314,8 +314,7 @@ body {
 
 .piedepagina {
   background-color: #FDDE2B;
-  padding: 0 2rem;
-  padding-top: 2rem;
+  padding: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -399,6 +398,23 @@ body {
   background-color: #F5F3E6;
 }
 
+.fondo span {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #159193;
+}
+
+@media (min-width: 992px) {
+  .fondo p {
+    font-size: 3rem;
+  }
+  .fondo p span {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #159193;
+  }
+}
+
 .proverbio {
   padding: 1rem 5rem 1rem 5rem;
   text-align: center;
@@ -422,6 +438,17 @@ body {
   font-size: 1.2rem;
   font-weight: bold;
   color: #159193;
+}
+
+@media (min-width: 992px) {
+  .bajoProverbio {
+    font-size: 2rem;
+  }
+  .bajoProverbio span {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #159193;
+  }
 }
 
 .cuatroImg {
@@ -854,6 +881,12 @@ body {
     margin-top: 2rem;
     margin-bottom: 7.6rem;
     width: 17rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .oculta {
+    display: none;
   }
 }
 /*# sourceMappingURL=style.css.map */

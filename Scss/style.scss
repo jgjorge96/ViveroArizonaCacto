@@ -112,8 +112,7 @@
 
 .piedepagina {
     background-color: #FDDE2B;
-    padding: 0 2rem;
-    padding-top: 2rem;
+    padding: 2rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -174,6 +173,23 @@
 
 .fondo{ 
     background-color:#F5F3E6;
+    span {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #159193;
+    }
+    @media (min-width: 992px) { 
+      p {
+        font-size: 3rem;
+        span {
+
+          font-size: 3rem;
+          font-weight: bold;
+          color: #159193;
+        }
+
+      }  
+    }
 }
 
 .proverbio{
@@ -200,6 +216,18 @@
         font-size: 1.2rem;
         font-weight: bold;
         color: #159193;
+    }
+    @media (min-width: 992px) { 
+      
+      font-size: 2rem;
+      span {
+
+        font-size: 2rem;
+        font-weight: bold;
+        color: #159193;
+      }
+
+      
     }
 }
 
@@ -234,9 +262,6 @@
 
 .uno, .dos{
   margin-bottom: 1.5rem;
-    @media (min-width: 768px) { 
-
-    }
     @media (min-width: 992px) { 
       
 
@@ -247,9 +272,6 @@
 
 .dos, .cuatro{
     margin-left: inherit;
-    @media (min-width: 768px) { 
-
-    }
     @media (min-width: 992px) { 
       margin-right: inherit;
      }
@@ -625,3 +647,11 @@
       width: 17rem;
     }
   }
+
+  @media (min-width: 992px) { 
+      
+    .oculta {
+      display:none;
+    }
+  }
+  
