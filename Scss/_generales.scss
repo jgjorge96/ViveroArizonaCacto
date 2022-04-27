@@ -7,10 +7,6 @@ html {
     @media (min-width: 992px) { 
         font-size: 100%;
     }
-    @media (min-width: 1400px) {
-        font-size: 80%;
-
-    }
 }
 
 * {
@@ -20,6 +16,10 @@ html {
     font-family: Roboto;
     font-size: 1.4rem;
 
+    @media (min-width: 992px) { 
+       
+    font-size: 2rem;
+      }
 }
 
 body {
