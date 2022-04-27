@@ -36,6 +36,25 @@
     background-color: #FDDE2B;
 }
 
+.barraBaja {
+  
+  li{
+    &.active{
+      background-color: #159193;
+      a{
+
+        color: #FFFFFF !important;
+      }
+    }
+  }
+  @media (min-width: 992px) { 
+    justify-content: end;
+    li{
+      margin-left: 1.5rem;
+    }
+  }
+}
+
 .btn-primary {
 
     background-color: #159193 !important;
@@ -98,6 +117,11 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    iframe{
+      @media (min-width: 992px) { 
+        height: 170px;
+      }
+    }
   }
   .newsletterData {
     left: 60.5rem;
@@ -135,11 +159,13 @@
     font-weight:1000;
     color:#000000;
 }
-
-.sobreNos {
-
-    flex: 0 0 auto;
-    width: 50%
+.sobreNosImages{
+  
+  @media (min-width: 992px) { 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .fondo{ 
@@ -178,25 +204,52 @@
 
     margin:1.6rem 1rem 0 1rem;
     position: relative;
+    text-align: center;
+    @media (min-width: 992px) { 
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
 }
 
 .bajocuatroImg{
-
     margin: 2rem 2rem 0rem 2rem;
     text-align: center;
     line-height: 2rem;
     font-size: 1.4rem;
     font-weight: 600;
+    @media (min-width: 992px) { 
+      display: block;
+     }
+}
+
+.row1{
+  @media (min-width: 768px) { 
+    margin-right: .2rem;
+  }
 }
 
 .uno, .dos{
+  margin-bottom: 1.5rem;
+    @media (min-width: 768px) { 
 
-    margin-bottom: 1.5rem;
+    }
+    @media (min-width: 992px) { 
+      
+
+      margin-left: inherit;
+      margin-bottom: 0rem;
+     }
 }
 
 .dos, .cuatro{
-
     margin-left: inherit;
+    @media (min-width: 768px) { 
+
+    }
+    @media (min-width: 992px) { 
+      margin-right: inherit;
+     }
 }
 
 .circulo{
@@ -207,6 +260,11 @@
     margin-top: -10rem;
     right: 50%;
     margin-right: -7rem;
+    @media (min-width: 992px) { 
+      margin-top: -5rem;
+      margin-right: -4.5rem;
+      width: 10rem;
+     }
 }
 
 .uno, .dos, .tres, .cuatro {
@@ -247,7 +305,7 @@
     list-style-image: url(/viveroArizonaCacto/Css/wateringCan.svg);
   }
   .direcc {
-    width: 16.8rem;
+    width: 100%;
     font-size: 0.8rem;
     text-align: center;
   }
@@ -350,8 +408,9 @@
   }
   .btnBuy {
     position: absolute;
-    left: 11rem;
-    top: 18.54rem;
+    left: 50%;
+    margin-left: -85px;
+    bottom: 2.54rem;
     text-align: center;
     border: none;
     background-color: #159193;

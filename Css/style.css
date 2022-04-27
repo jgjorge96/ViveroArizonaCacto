@@ -99,6 +99,12 @@ html {
   }
 }
 
+@media (min-width: 992px) {
+  html {
+    font-size: 120%;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -235,6 +241,25 @@ body {
   background-color: #FDDE2B;
 }
 
+.barraBaja li.active {
+  background-color: #159193;
+}
+
+.barraBaja li.active a {
+  color: #FFFFFF !important;
+}
+
+@media (min-width: 992px) {
+  .barraBaja {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+  }
+  .barraBaja li {
+    margin-left: 1.5rem;
+  }
+}
+
 .btn-primary {
   background-color: #159193 !important;
   border-color: inherit;
@@ -302,6 +327,12 @@ body {
           justify-content: space-between;
 }
 
+@media (min-width: 992px) {
+  .piedepagina iframe {
+    height: 170px;
+  }
+}
+
 .newsletterData {
   left: 60.5rem;
   width: 17rem;
@@ -338,11 +369,16 @@ body {
   color: #000000;
 }
 
-.sobreNos {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
-  width: 50%;
+@media (min-width: 992px) {
+  .sobreNosImages {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .fondo {
@@ -377,6 +413,19 @@ body {
 .cuatroImg {
   margin: 1.6rem 1rem 0 1rem;
   position: relative;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .cuatroImg {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .bajocuatroImg {
@@ -387,12 +436,37 @@ body {
   font-weight: 600;
 }
 
+@media (min-width: 992px) {
+  .bajocuatroImg {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  .row1 {
+    margin-right: .2rem;
+  }
+}
+
 .uno, .dos {
   margin-bottom: 1.5rem;
 }
 
+@media (min-width: 992px) {
+  .uno, .dos {
+    margin-left: inherit;
+    margin-bottom: 0rem;
+  }
+}
+
 .dos, .cuatro {
   margin-left: inherit;
+}
+
+@media (min-width: 992px) {
+  .dos, .cuatro {
+    margin-right: inherit;
+  }
 }
 
 .circulo {
@@ -402,6 +476,14 @@ body {
   margin-top: -10rem;
   right: 50%;
   margin-right: -7rem;
+}
+
+@media (min-width: 992px) {
+  .circulo {
+    margin-top: -5rem;
+    margin-right: -4.5rem;
+    width: 10rem;
+  }
 }
 
 .uno, .dos, .tres, .cuatro {
@@ -447,7 +529,7 @@ body {
 }
 
 .direcc {
-  width: 16.8rem;
+  width: 100%;
   font-size: 0.8rem;
   text-align: center;
 }
@@ -560,8 +642,9 @@ body {
 
 .btnBuy {
   position: absolute;
-  left: 11rem;
-  top: 18.54rem;
+  left: 50%;
+  margin-left: -85px;
+  bottom: 2.54rem;
   text-align: center;
   border: none;
   background-color: #159193;

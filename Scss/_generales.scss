@@ -6,6 +6,10 @@ html {
         font-size: 80%;
 
     }
+    
+    @media (min-width: 992px) { 
+        font-size: 120%;
+    }
 }
 
 * {
