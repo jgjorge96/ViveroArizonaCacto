@@ -6,7 +6,9 @@
 @import "carousel";
 
 .card {
-
+  &.col {
+    padding: 0 !important;
+  }
     background-color: rgba(225, 47, 167, 1);
     border:0;
     &.rounded-3 {
@@ -109,6 +111,12 @@
         font-size: 1.2rem;
     }
 }
+.card-text {
+  
+  @media (min-width: 992px) { 
+    font-size: 2rem;
+  }
+}
 
 .piedepagina {
     background-color: #FDDE2B;
@@ -162,6 +170,12 @@
     font-weight:1000;
     color:#000000;
 }
+.navbar-brand img, .logo {
+  
+  @media (min-width: 992px) { 
+    width: 160px;
+  }
+}
 .sobreNosImages{
   
   @media (min-width: 992px) { 
@@ -180,10 +194,10 @@
     }
     @media (min-width: 992px) { 
       p {
-        font-size: 3rem;
+        font-size: 2rem;
         span {
 
-          font-size: 3rem;
+          font-size: 2rem;
           font-weight: bold;
           color: #159193;
         }
@@ -203,6 +217,10 @@
     line-height:2.55rem;
     margin-top: 3rem;
     margin-bottom: 3rem !important;
+    
+    @media (min-width: 992px) { 
+        font-size: 2rem;
+    }
 }
 
 .bajoProverbio{
@@ -249,7 +267,7 @@
     line-height: 2rem;
     font-size: 1.4rem;
     font-weight: 600;
-    @media (min-width: 992px) { 
+    @media (min-width: 768px) { 
       display: block;
      }
 }
@@ -487,7 +505,6 @@
 
   @media (max-width: 753px) {
     .piedepagina {
-      width: 70rem;
       padding: 0.5rem;
       .piedepagina__flex {
         width: 25rem;
@@ -571,7 +588,6 @@
 
   @media (max-width: 391px) {
     .piedepagina {
-      width: 39rem;
       .piedepagina__flex {
         width: 16rem;
         height: 9rem;
@@ -652,6 +668,9 @@
       
     .oculta {
       display:none;
+    }
+    .imgMax {
+      width: 300px !important;
     }
   }
   

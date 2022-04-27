@@ -26,7 +26,7 @@
         <div class="container-fluid">
             <div class="row">
                 <nav class="navbar navbar-expand-lg navbar-light p-0">
-                    <div class="container-fluid">
+                    <div class="container">
                         <a class="navbar-brand" href="index.html">
                             <img src="multimedia/LOGO arizona cacto 1.png" alt="imagen del logo de Arizona Cacto">
                         </a>
@@ -389,7 +389,7 @@
         </section>
     </div>
 
-    <div class="container-fluid container2">
+    <div class="container container2">
         <div class="border border-2 border-warning rounded-3 cardAmarilla">
             <section id="conoceMas">
                 <h1>¿PORQUÉ ELEGIRNOS?</h1>
@@ -422,12 +422,12 @@
         </div>
     </div>
 
-    <div id="index" class="container-fluid">
+    <div id="index" class="container">
         <section id="conoceMas">
             <h1>NUESTROS CONSEJOS</h1>
         </section>
-        <section class="d-flex justify-content-between">
-            <div class="card m-3 consejos" style="width: 45%;">
+        <section class="row justify-content-between">
+            <div class="col card m-3 consejos">
                 <img src="multimedia/zoe-schaeffer-siD6uufCyt8-unsplash.jpg" class="card-img-top" alt="...">
                 <div class="card-body p-1 pt-3 border border-warning">
                   <p class="text-left textoConsejo">Una de las diferencias de los cactus y suculentas con otro 
@@ -435,7 +435,15 @@
                   </p>
                 </div>
             </div>
-            <div class="card m-3 consejos" style="width: 45%;">
+            <div class="col card m-3 consejos">
+                <img src="multimedia/carCuadrada2.jpg" class="card-img-top" alt="...">
+                <div class="card-body p-1 pt-3 border border-warning">
+                  <p class="text-left textoConsejo">Cuando entramos en la duda de si hacer un cambio de maceta para nuestra 
+                      planta lo importante a tener  en cuenta es que la misma no debe ser mayor de dos dedos de cada lado.
+                  </p>
+                </div>
+            </div>
+            <div class="col card m-3 consejos d-none d-lg-block">
                 <img src="multimedia/carCuadrada2.jpg" class="card-img-top" alt="...">
                 <div class="card-body p-1 pt-3 border border-warning">
                   <p class="text-left textoConsejo">Cuando entramos en la duda de si hacer un cambio de maceta para nuestra 
@@ -451,35 +459,37 @@
         </a>
     </div>
     
-    <!--Inicio Footer-->
-    <footer class=" container-fluid">
-        <div class="row">
-            <div class="d-flex piedepagina justify-content-between">
-                <div class="col-6" style="text-align:center;">
-                    <img src="./multimedia/LOGO arizona cacto 1.png" class="d-block" alt="logo arizona cacto" style="margin: 0 auto;">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3275.249752074992!2d-58.64773518473905!3d-34.824812576736996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcdb587ebde6d1%3A0xd1f06731422013bc!2sSantiago%20Bynnon%207539%2C%20B1763JRG%20Virrey%20del%20Pino%2C%20Provincia%20de%20Buenos%20Aires%2C%20Argentina!5e0!3m2!1ses-419!2sit!4v1649445695440!5m2!1ses-419!2sit" width="80%" height="80" style="border:0;margin: 0 auto;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    <p class="direcc">Santiago Bynnon 7539, Virrey del Pino. Km 37. Buenos Aires.</p>
+    <!--Inicio Footer--><div class="piedepagina">
 
+        <footer class=" container">
+            <div class="row">
+                <div class="d-flex  justify-content-between">
+                    <div class="col-6" style="text-align:center;">
+                        <img src="./../multimedia/LOGO arizona cacto 1.png" class="d-block logo" alt="logo arizona cacto" style="margin: 0 auto;">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3275.249752074992!2d-58.64773518473905!3d-34.824812576736996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcdb587ebde6d1%3A0xd1f06731422013bc!2sSantiago%20Bynnon%207539%2C%20B1763JRG%20Virrey%20del%20Pino%2C%20Provincia%20de%20Buenos%20Aires%2C%20Argentina!5e0!3m2!1ses-419!2sit!4v1649445695440!5m2!1ses-419!2sit" width="80%" height="80" style="border:0;margin: 0 auto;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <p class="direcc">Santiago Bynnon 7539, Virrey del Pino. Km 37. Buenos Aires.</p>
+                        
+                    </div>
+                    <div class="col-6">
+                        <h3 class="text-center mt-5">Nuestro Newsletter</h3>
+                        <p class="boletin">Sumate a nuestro boletin de noticias</p>
+                        <form action="">
+                            <div class="mb-3">
+                                <input type="text" class="form-control formFooter" id="Name" placeholder="Tu nombre y apellido" style="height: 2.4rem;">
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control formFooter" id="Email" placeholder="Tu correo electronico" style="height: 2.4rem;">
+                            </div>
+                            <div class="d-grid gap-2 mx-auto pt-3 text-center">
+                                <button type="submit" class="btn subButton " > Me quiero sumar</button>
+                            </div>
+                        </form>
+                    </div> 
                 </div>
-                <div class="col-6">
-                    <h3 class="text-center mt-5">Nuestro Newsletter</h3>
-                    <p class="boletin">Sumate a nuestro boletin de noticias</p>
-                    <form action="">
-                        <div class="mb-3">
-                            <input type="text" class="form-control formFooter" id="Name" placeholder="Tu nombre y apellido" style="height: 2.4rem;">
-                        </div>
-                        <div class="mb-3">
-                            <input type="email" class="form-control formFooter" id="Email" placeholder="Tu correo electronico" style="height: 2.4rem;">
-                        </div>
-                        <div class="d-grid gap-2 mx-auto pt-3 text-center">
-                            <button type="submit" class="btn subButton " > Me quiero sumar</button>
-                        </div>
-                    </form>
-                </div> 
             </div>
-        </div>
-        
-    </footer>
+            
+        </footer>
+    </div>
 
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
