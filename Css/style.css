@@ -913,5 +913,8 @@ body {
   .imgMax {
     width: 300px !important;
   }
+  .menuDerecha li a {
+    font-size: 20px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
