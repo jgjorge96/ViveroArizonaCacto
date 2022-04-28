@@ -118,6 +118,13 @@
   }
 }
 
+.dataCard {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
 .piedepagina {
     background-color: #FDDE2B;
     padding: 2rem;
@@ -332,6 +339,14 @@
     margin-bottom: 3rem;
 }
 
+.infoCard {
+  max-width: 138rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 
 .resaltado {
     font-size: 1.2rem;
@@ -342,6 +357,7 @@
     border-radius: 1.2rem;
   }
   .textWrap {
+    margin-top: 1.5rem;
     text-align: justify;
   }
   .iconLi {
@@ -381,6 +397,18 @@
   .logoCacto {
     margin-left: 28rem;
   }
+  .logoCacto1 {
+    margin-left: 22rem;
+  }
+  .imgVarias {
+    max-width: 138rem;
+    height: 38rem;
+    background-color: #FDDE2B;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+  }
+
   .lema {
     text-align: center;
     font-weight: 500;
@@ -571,6 +599,15 @@
       font-size: 2rem;
     }
 
+    .imgVarias {
+      margin-left: 1.7rem;
+      max-width: 70rem;
+      height: 29rem;
+    }
+    .logoCacto1 {
+      margin-left: 18rem;
+    }
+
     // #Nombre {
     //   height: 4.8rem;
     //   width: 39rem;
@@ -667,6 +704,13 @@
       margin-top: 2rem;
       margin-bottom: 7.6rem;
       width: 17rem;
+    }
+    .imgVarias {
+      max-width: 39rem;
+      height: 14.9rem;
+    }
+    .logoCacto1 {
+      margin-left: 0rem;
     }
   }
 
