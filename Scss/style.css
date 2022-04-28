@@ -326,6 +326,21 @@ body {
   }
 }
 
+.dataCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .piedepagina {
   background-color: #FDDE2B;
   padding: 2rem;
@@ -577,6 +592,22 @@ body {
   margin-bottom: 3rem;
 }
 
+.infoCard {
+  max-width: 138rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .resaltado {
   font-size: 1.2rem;
   font-weight: bold;
@@ -588,6 +619,7 @@ body {
 }
 
 .textWrap {
+  margin-top: 1.5rem;
   text-align: justify;
 }
 
@@ -629,6 +661,26 @@ body {
 
 .logoCacto {
   margin-left: 28rem;
+}
+
+.logoCacto1 {
+  margin-left: 22rem;
+}
+
+.imgVarias {
+  max-width: 138rem;
+  height: 38rem;
+  background-color: #FDDE2B;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .lema {
@@ -843,6 +895,14 @@ body {
     margin-top: 14.5rem;
     font-size: 2rem;
   }
+  .imgVarias {
+    margin-left: 1.7rem;
+    max-width: 70rem;
+    height: 29rem;
+  }
+  .logoCacto1 {
+    margin-left: 18rem;
+  }
 }
 
 @media (max-width: 391px) {
@@ -918,6 +978,13 @@ body {
     margin-top: 2rem;
     margin-bottom: 7.6rem;
     width: 17rem;
+  }
+  .imgVarias {
+    max-width: 39rem;
+    height: 14.9rem;
+  }
+  .logoCacto1 {
+    margin-left: 0rem;
   }
 }
 
