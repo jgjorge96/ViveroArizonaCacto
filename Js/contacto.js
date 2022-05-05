@@ -1,15 +1,10 @@
-//Contacto whatsapp
-function consultwhatsapp() {
-    
-    var name = document.getElementById("Nombre").value;
-    var mail = document.getElementById("Correo").value;
-    var comment = document.getElementById("Mensaje").value;
+function contactMail() {
+  var link = "mailto:viveroarizonacacto@gmail.com"
+           + "?cc=viveroarizonacacto@gmail.com"
+           + "&subject=" + encodeURIComponent("Consulta via web")
+           + "&body=" + encodeURIComponent(document.getElementById('Mensaje').value)
+           + "%0a" + "&body=" + encodeURIComponent(document.getElementById('Nombre').value)
+  ;
   
-    var url = "https://wa.me/+522713168219?text=" 
-    + "Hola! Quiero realizar una consulta" + "%0a"
-    + "%0a" + "Nombre: " + name + "%0a"
-    + "Email: " + mail  + "%0a"
-    + "%0a" + comment; 
-  
-    window.open(url, '_blank').focus();
-  }
+  window.location.href = link;
+}
