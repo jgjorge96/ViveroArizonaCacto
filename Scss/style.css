@@ -593,7 +593,6 @@ body {
 }
 
 .infoCard {
-  max-width: 138rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -608,6 +607,12 @@ body {
           justify-content: space-between;
 }
 
+.cardContent {
+  width: 100%;
+  max-width: 445px;
+  background-color: #FFFFFF;
+}
+
 .resaltado {
   font-size: 1.2rem;
   font-weight: bold;
@@ -616,6 +621,12 @@ body {
 
 .imgBorder {
   border-radius: 1.2rem;
+}
+
+.imgBorder1 {
+  border-radius: 1.2rem;
+  width: 445px;
+  height: 382px;
 }
 
 .textWrap {
@@ -931,6 +942,21 @@ body {
     width: 35rem;
     height: 17rem;
   }
+  .cardContent {
+    width: 100%;
+    background-color: #FFFFFF;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  .imgBorder1 {
+    width: 344px;
+    height: 295px;
+  }
 }
 
 @media (max-width: 391px) {
@@ -1018,6 +1044,10 @@ body {
     margin-top: 30px;
     width: 20rem;
     height: 10rem;
+  }
+  .imgBorder1 {
+    width: 168px;
+    height: 144px;
   }
 }
 
