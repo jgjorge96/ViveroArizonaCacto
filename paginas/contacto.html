@@ -60,7 +60,7 @@
     <!--Link a whatsapp-->
     <section id="botonWhatsApp">
         <div class="botonWhatsApp">
-            <a href="https://api.whatsapp.com/send?phone=+542235064753" target="blanck">
+            <a href="https://wa.me/+541158120441?text=" target="_blank">
                 <img src="../multimedia/WhatsApp.png" alt="Link a WhatsApp" rel="noopener" data-bs-toggle="tooltip"
                     data-bs-placement="top" title="" data-bs-original-title="¡Hablemos!">
             </a>
@@ -115,27 +115,13 @@
     </section>
 
     <!--seccion iconos redes sociales-->
-    <section>
+    <section class="redesData">
         <p class="visitUs">Visitanos en nuestras redes sociales</p>
-        <div class="row rowN">
-            <div class="col-sm-6 sobreNos">
-                <div class="card">
-                    <div class="card-body fondo ">
-                        <img src="../multimedia/contacto/facebookIcon.svg" class="d-block w-100 rsIcon"
-                        alt="icono facebook">
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 sobreNos">
-                <div class="card">
-                    <div class="card-body fondo">
-                        <img src="../multimedia/contacto/instagramIcon.svg" class="d-block w-100 rsIcon"
-                        alt="icono instagram">
-                    </div>
-                </div>
-            </div>
-            <p class="webCacto">arizonacacto.ok</p>
+        <div class="iconPosition">
+            <img src="../multimedia/contacto/facebookIcon.svg" class="d-block rsIcon" alt="icono facebook">
+            <img src="../multimedia/contacto/instagramIcon.svg" class="d-block rsIcon" alt="icono instagram">
         </div>
+        <p class="webCacto">arizonacacto.ok</p>
     </section>
     <!--Seccion form-->
     <section>
@@ -154,7 +140,7 @@
                     <textarea class="form-control  inputEdit" id="Mensaje" placeholder="Tu mensaje"></textarea>
                 </div>
                 <div class="d-grid gap-2 col-4 mx-auto pt-3 marginButtonSubmit">
-                    <button type="submit" class="btn btn-primary btn-lg p-3">ENVIAR</button>
+                    <button value="Submit" onclick="consultwhatsapp()" class="btn btn-primary btn-lg p-3">ENVIAR</button>
                 </div>
             </form>
         </div>
@@ -183,7 +169,7 @@
                                 <input type="email" class="form-control formFooter" id="Email" placeholder="Tu correo electronico" style="height: 2.4rem;">
                             </div>
                             <div class="d-grid gap-2 mx-auto pt-3 text-center">
-                                <button type="submit" class="btn subButton " > Me quiero sumar</button>
+                                <button value="Submit" onclick="contactwhatsapp()" class="btn subButton " > Me quiero sumar</button>
                             </div>
                         </form>
                     </div> 
@@ -208,6 +194,7 @@
             return new bootstrap.Tooltip(tooltipTriggerEl)
         })
     </script>
-    
+    <script src="/Js/contacto.js"></script>
+    <script src="/Js/newsletter.js"></script>
 </body>
 </html>

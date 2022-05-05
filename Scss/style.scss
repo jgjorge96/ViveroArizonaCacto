@@ -377,8 +377,8 @@
     position: absolute;
     width: 48.5rem;
     height: 29rem;
-    left: 67rem;
-    top: 53.6rem;
+    left: 40rem;
+    top: 58.2rem;
   
     background: #E12FA7;
     border-radius: 1rem;
@@ -395,7 +395,7 @@
     margin-top: 1rem;
   }
   .logoCacto {
-    margin-left: 28rem;
+    margin-left: 22rem;
   }
   .logoCacto1 {
     margin-left: 22rem;
@@ -431,12 +431,26 @@
 
   .rsIcon {
     width: 100%;
+    max-width: 211px;
     height: 100%;
-    display: flex;
-    flex-flow: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
+    max-height: 211px;
   }
+.iconPosition {
+  margin-top: 100px;
+  width: 40rem;
+  height: 21.1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.redesData {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
   .formContact {
     display: flex;
     flex-direction: column;
@@ -607,6 +621,11 @@
     .logoCacto1 {
       margin-left: 18rem;
     }
+    .iconPosition {
+      margin-top: 100px;
+      width: 35rem;
+      height: 17rem;
+    }
 
     // #Nombre {
     //   height: 4.8rem;
@@ -712,6 +731,12 @@
     .logoCacto1 {
       margin-left: 0rem;
     }
+    .iconPosition {
+      margin-top: 30px;
+      width: 20rem;
+      height: 10rem;
+    }
+
   }
 
   @media (min-width: 992px) { 
